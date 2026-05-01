@@ -6,6 +6,6 @@ import { cloudflare } from "@cloudflare/vite-plugin";
 export default defineConfig({
   plugins: [vue(), cloudflare()],
   define: {
-    __API_URL__: JSON.stringify('http://example.com'),
+    __API_URL__: JSON.stringify('https://icy-bush-4cce.ggq221.workers.dev/'),
   },
 });
